@@ -1,7 +1,7 @@
 ##Introducción
 
 
-El objetivo es hacer un libro en común por y para la comunidad de [ingenierocontracabrones](ingenierocontracabrones.blogspot.com). Mi papel será fundamentalmente instructor para guiar y corregir los posibles errores durante la redacción.
+El objetivo es hacer un libro en común por y para la comunidad de [ingenierocontracabrones](https://ingenierocontracabrones.blogspot.com). Mi papel será fundamentalmente instructor para guiar y corregir los posibles errores durante la redacción.
 
 Es recomendable contribuir a éste proyecto durante el curso ya que es una buena manera de afianzar los conocimientos de las asignaturas y echar una mano a los que la necesitan. 
 
