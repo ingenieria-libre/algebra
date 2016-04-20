@@ -13,4 +13,4 @@ Todo deberá ser matemáticamente desarrollado y se buscará la relación de con
 
 ##Gracias por participar
 
-En una carrera donde predomina el egoísmo te honra el participar en un proyecto de contenido libre como éste. Muchas gracias en nombre de toda la comunidad.
+En una carrera donde predomina el egoísmo te honra el participar en un proyecto de contenido libre como éste. Muchas gracias en nombre de toda la comunidad. Cambio
