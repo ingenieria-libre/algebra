@@ -10,6 +10,8 @@ Es recomendable contribuir a éste proyecto durante el curso ya que es una buena
 Primeramente se abordará el contenido del Grado en Ingeniería en Tecnologías Industriales de la Universidad de Málaga. Posteriormente se ampliará para llegar a tener un libro general para todas 
 las ingenierías.
 
+Comenzaremos el contenido guiándonos con el contenido de cada asignatura en el [PROA](http://www.etsii.uma.es/)
+
 ##Redacción
 
 Se debe llegar a un equilibrio entre brevedad y claridad sin perder un ápice de rigurosidad. Debemos descomponer los conceptos difíciles en diferentes conceptos fácilmente abordables aportando ejemplos aclaratorios.
