@@ -1,7 +1,7 @@
 ##Introducción
 
 
-El objetivo es hacer un libro en común por y para la comunidad de [ingenierocontracabrones](https://ingenierocontracabrones.blogspot.com) puedes echarle un vistazo ya en [éste repositorio](algebra/apuntex/0_algebra.pdf). Mi papel será fundamentalmente instructor para guiar y corregir los posibles errores durante la redacción.
+El objetivo es hacer un libro en común por y para la comunidad de [ingenierocontracabrones](https://ingenierocontracabrones.blogspot.com) puedes echarle un vistazo ya en [éste repositorio](/apuntex/0_algebra.pdf). Mi papel será fundamentalmente instructor para guiar y corregir los posibles errores durante la redacción.
 
 Es recomendable contribuir a éste proyecto durante el curso ya que es una buena manera de afianzar los conocimientos de las asignaturas y echar una mano a los que la necesitan. 
 
