@@ -10,6 +10,15 @@ Es recomendable contribuir a éste proyecto durante el curso ya que es una buena
 Primeramente se abordará el contenido del Grado en Ingeniería en Tecnologías Industriales de la Universidad de Málaga ( [Programa Oficial](http://www.etsii.uma.es/) ) . Posteriormente se ampliará para llegar a tener un libro general para todas
 las ingenierías.
 
+Espacios Vectoriales.Aplicaciones Lineales
+Diagonalización de Endomorfismos.
+Formas bilineales y cuadráticas.
+Espacios afines. Movimientos.
+Cónicas y cuádricas.
+Álgebra lineal numérica.
+Geometría diferencial
+Uso de paquetes informáticos.
+
 
 ##Redacción
 
