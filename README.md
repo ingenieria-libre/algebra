@@ -11,7 +11,9 @@ Primeramente se abordará el contenido del Grado en Ingeniería en Tecnologías 
 las ingenierías.
 
 Espacios Vectoriales.Aplicaciones Lineales
+
 Diagonalización de Endomorfismos.
+
 Formas bilineales y cuadráticas.
 Espacios afines. Movimientos.
 Cónicas y cuádricas.
