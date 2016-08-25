@@ -65,7 +65,7 @@
 %		\chead{}
 %		\lfoot{}
 %		\cfoot{\thepage}	\rfoot{\href{ingenierocontracabrones.blogspot.com}{ingenierocontracabrones}}
-		
+
 \usepackage{fancyhdr}
 \setlength{\headheight}{15pt}
 
@@ -96,14 +96,14 @@
 	\usepackage{tikz}
 	\usepackage{tikz-3dplot}
 	\usepackage{siunitx}
-	
+
 
 	%Frame colors
 	\definecolor{a_color}{RGB}{0,0,200}%Blue
 	\definecolor{e_color}{RGB}{0,100,0}%Green
 	\definecolor{f_color}{RGB}{100,50,0}%Orange
 	\definecolor{b_color}{RGB}{200,0,0}%Red
-	
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %MATEMÁTICAS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -113,16 +113,23 @@
 	\usepackage[]{algorithm2e}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	SUBFILES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\usepackage{subfiles}
+	\newcommand{\onlyinsubfile}[1]{#1}
+	\newcommand{\notinsubfile}[1]{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TÍTULO POR DEFECTO
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{\centering \huge \bfseries Álgebra Lineal}
 \author{
-	\emph{\centering Ingeniería Libre}\\[1.5 cm]
+	\emph{\centering Contenido completo}\\[1.5 cm]
  %	\emph{\centering Open Source Project}\\[1.5 cm]
  % 	\textsc{Escuela Técnica Superior de Ingeniería Industrial}\\
  % 	\textsc{University of Málaga}\\[0.5 cm]
- 	\texttt{ingenieria-libre.github.io}\\[0.5 cm] 
-	\texttt{mclnaranjito@gmail.com}\\[4 cm] 
+ 	\texttt{ingenierocontracabrones.blogspot.com}\\[0.5 cm]
+	\texttt{mclnaranjito@gmail.com}\\[4 cm]
 	\small{Copyright \copyright \ (2016 - \the\year) \ Manuel Castillo López.} \\
-	\small{GPL GNU General Public License}\\[0.5 cm] 
+	\small{GPL GNU General Public License}\\[0.5 cm]
 	}

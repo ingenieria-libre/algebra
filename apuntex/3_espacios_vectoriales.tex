@@ -17,14 +17,34 @@
 
     % You should have received a copy of the GNU General Public License
     % along with this program.  If not, see <http://www.gnu.org/licenses/>.
-    
+\documentclass[0_algebra.tex]{subfiles}
+\begin{document}
+
+\onlyinsubfile{
+\title{\centering \huge \bfseries Álgebra Lineal}
+\author{
+	\emph{ \bfseries \centering Tema 3: Espacios Vectoriales}\\[1.5 cm]
+ %	\emph{\centering Open Source Project}\\[1.5 cm]
+ % 	\textsc{Escuela Técnica Superior de Ingeniería Industrial}\\
+ % 	\textsc{University of Málaga}\\[0.5 cm]
+ 	\texttt{ingenierocontracabrones.blogspot.com}\\[0.5 cm]
+	\texttt{mclnaranjito@gmail.com}\\[4 cm]
+	\small{Copyright \copyright \ (2016 - \the\year) \ Manuel Castillo López.} \\
+	\small{GPL GNU General Public License}\\[0.5 cm]
+	}
+\maketitle
+\tableofcontents
+
+\setcounter{chapter}{2}
+}
+
 \chapter{Espacios Vectoriales y Aplicaciones lineales}
 \section{Espacio vectorial}
 Un espacio vectorial sobre un cuerpo $(K,+,\cdot)$ es un grupo abeliano $(V,+)$ dotado con una operación externa $K \times V \rightarrow V$, que verifica las siguientes propiedades:
 \begin{enumerate}
 \item Distributiva respecto a escalares $\rightarrow \lambda\cdot(v+w)=\lambda\cdot v+\lambda \cdot w$
 \item Distributiva respecto a vectores $\rightarrow (\lambda + \mu)\cdot v= \lambda \cdot v+ \mu \cdot v$
-\item Asociativa $\rightarrow \lambda \cdot (\mu \cdot v)=(\lambda \cdot \mu)\cdot v$ 
+\item Asociativa $\rightarrow \lambda \cdot (\mu \cdot v)=(\lambda \cdot \mu)\cdot v$
 \item Modular $\rightarrow 1 \cdot v = v$
 \end{enumerate}
 Con\  $\lambda,\ \mu \in K$ y $v, w \ \in V$.\\
@@ -109,3 +129,4 @@ Y así queda demostrado que el cuerpo de los números complejos, con las operaci
 \subsection{Método de Gauss}
 \subsection{Factorización LU}
 
+\end{document}

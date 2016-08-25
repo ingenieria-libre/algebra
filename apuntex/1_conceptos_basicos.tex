@@ -17,7 +17,27 @@
 
     % You should have received a copy of the GNU General Public License
     % along with this program.  If not, see <http://www.gnu.org/licenses/>.
-    
+
+\documentclass[0_algebra.tex]{subfiles}
+\begin{document}
+
+
+\onlyinsubfile{
+\title{\centering \huge \bfseries Álgebra Lineal}
+\author{
+	\emph{ \bfseries \centering Tema 1: Conceptos básicos}\\[1.5 cm]
+ %	\emph{\centering Open Source Project}\\[1.5 cm]
+ % 	\textsc{Escuela Técnica Superior de Ingeniería Industrial}\\
+ % 	\textsc{University of Málaga}\\[0.5 cm]
+ 	\texttt{ingenierocontracabrones.blogspot.com}\\[0.5 cm]
+	\texttt{mclnaranjito@gmail.com}\\[4 cm]
+	\small{Copyright \copyright \ (2016 - \the\year) \ Manuel Castillo López.} \\
+	\small{GPL GNU General Public License}\\[0.5 cm]
+	}
+\maketitle
+\tableofcontents
+}
+
 \chapter{Conceptos básicos I}
 Para comenzar el estudio del álgebra lineal, es preciso introducir conceptos pertenecientes al álgebra abstracta:
 \section{Conjuntos}
@@ -153,7 +173,7 @@ Sean dos subconjuntos $A$, $B$ y $C$ pertenecientes al conjunto $E$. Se dice que
 \item Asociativa:\quad $(A\cup B)\cup C=A\cup (B\cup C)$
 
 \hspace{3.14 cm}  $(A\cap B)\cap C=A\cap (B\cap C)$
-\item Distributiva:\ \ $A\cap (B\cup C)=(A\cap B)\cup (A\cap C)$ 
+\item Distributiva:\ \ $A\cap (B\cup C)=(A\cap B)\cup (A\cap C)$
 
 \hspace{2.4 cm} $A\cup (B\cap C)=(A\cup B)\cap (A\cup C)$
 \item Elemento absorbente:\quad $A\cap \emptyset=\emptyset$\quad  $A\cup E=E$
@@ -181,7 +201,7 @@ $$
 
 \subsubsection*{Ejemplo:}
 
-Tomemos el mismo ejemplo que usamos para el producto cartesiano. Sean dos conjuntos $A=\lbrace a,b,c \rbrace$ y $B=\lbrace 1,2,3,4 \rbrace$. Definiremos el grafo 
+Tomemos el mismo ejemplo que usamos para el producto cartesiano. Sean dos conjuntos $A=\lbrace a,b,c \rbrace$ y $B=\lbrace 1,2,3,4 \rbrace$. Definiremos el grafo
 
 $$
 G=\lbrace (a,1),(b,2),(b,3),(c,3),(c,4) \rbrace
@@ -231,7 +251,7 @@ Sea $A$ un conjunto y $\sim$ una relación binaria de equivalencia definida en $
 
 $$
 [a]\equiv \lbrace b \in A : a \sim b \rbrace
-$$                                                                                          
+$$
 
 Puesto que las relaciones de equivalencia, por definición, son transitivas y simétricas podemos afirmar que la clase de equivalencia de dos elementos relacionados es la misma y, por tanto, cualquiera de los elementos puede representar a dicha clase.
 
@@ -258,7 +278,7 @@ A=\bigcup_{i=1}^n [a_i]
 
 
 \begin{equation}
-[a_i]\cap [a_j]=\emptyset \quad \text{si\quad }a_i \not\sim a_j 
+[a_i]\cap [a_j]=\emptyset \quad \text{si\quad }a_i \not\sim a_j
 \label{eq4}
 \end{equation}
 
@@ -290,7 +310,7 @@ Las clases de equivalencia son:
 \begin{flalign*}
 &[1]= \lbrace 1,3 \rbrace = [3]\\
 &[2]= \lbrace 2,4 \rbrace = [4]\\
-&[5]= \lbrace 5 \rbrace  
+&[5]= \lbrace 5 \rbrace
 \end{flalign*}
 
 Por tanto, el conjunto cociente será:
@@ -312,7 +332,7 @@ $$
 Una relación es de \textbf{orden total} si además es conexa, es decir, todos los elementos están relacionados. Si no es conexa será relación de \textbf{orden parcial}. Se dirá entonces que A está totalmente o parcialmente ordenado si en él hay definida una relación de orden total o parcial respectivamente. Se llama cadena a un subconjunto no vacío totalmente ordenado.\\
 
 Sean $(A,\leq )$ un conjunto ordenado y $B$ un subconjunto no vacío de $A$.\\
- 
+
 Llamamos \textbf{cota superior} de $B$ a cualquier elemento de $A$ que es posterior a todo elemento de $B$. Si existe alguna cota superior, se dice que $B$ está acotado superiormente.\\
 
 Llamamos \textbf{cota inferior} de $B$ a cualquier  elemento de $A$ que es anterior a todo elemento de $B$. Si existe alguna cota inferior, se dice que $B$ está acotado inferiormente.\\
@@ -442,3 +462,4 @@ $$
 \item La composición de aplicaciones biyectivas es una aplicación biyectiva.
 \end{itemize}
 
+\end{document}
