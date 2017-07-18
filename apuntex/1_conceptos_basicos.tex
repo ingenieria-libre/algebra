@@ -41,27 +41,27 @@
 \chapter{Conceptos básicos I}
 Para comenzar el estudio del álgebra lineal, es preciso introducir conceptos pertenecientes al álgebra abstracta:
 \section{Conjuntos}
-Un conjunto es una reunión de determinados objetos bien definidos y diferenciables los unos de los otros. A modo de ejemplo tenemos los conjuntos siguientes:
+Un conjunto es una reunión de determinados objetos bien definidos y diferenciables los unos de los otros. A modo de ejemplo tenemos los siguientes conjuntos numéricos:
 
 \begin{itemize}
-\item Conjunto de los números naturales: $\mathbb{N}=\lbrace 0,1,2,3,... \rbrace$
-\item Conjunto de los números enteros: $\mathbb{Z}=\lbrace ...,-3,-2,-1,0,1,2,3,... \rbrace$
-\item Conjunto de los números racionales: $\mathbb{Q}=\lbrace \frac{a}{b}:\ a,b\in \mathbb{Z},\ b\neq 0 \rbrace$
-\item Conjunto de los números iracionales: $\mathbb{I}=\lbrace \sqrt{2}, \sqrt{5}, \pi, e  \rbrace$
-\item Conjunto de los números reales: $\mathbb{R}=\lbrace \mathbb{Q} +\mathbb{I}\rbrace$
-\item Conjunto de los números complejos: $\mathbb{C}=\lbrace a+bi: a,b\in \mathbb{R}\rbrace$
+\item Los números naturales: $\mathbb{N}=\lbrace 0,1,2,3,... \rbrace$
+\item Los números enteros: $\mathbb{Z}=\lbrace ...,-3,-2,-1,0,1,2,3,... \rbrace$
+\item Los números racionales: $\mathbb{Q}=\lbrace \frac{a}{b}:\ a,b\in \mathbb{Z},\ b\neq 0 \rbrace$
+\item Los números iracionales: $\mathbb{I}=\lbrace \sqrt{2}, \sqrt{5}, \pi, e, \ldots  \rbrace$
+\item Los números reales: $\mathbb{R}=\lbrace \mathbb{Q} \cup \mathbb{I}\rbrace$
+\item Los números complejos: $\mathbb{C}=\lbrace a+bi: a,b\in \mathbb{R}\rbrace$
 \end{itemize}
 
-Dado un conjunto A, se le puede añadir modificadores ($*$, $+$, $-$). $A^*$ será el conjunto de elementos de $A$ salvo el cero, mientras que $A^+$ y $A^-$ designan a los elementos positivos y negativos de $A$ respectivamente. Como ejemplo tendríamos $\mathbb{N}^*=\lbrace 1,2,3,... \rbrace$, $\mathbb{Z}^+=\lbrace 1,2,3,... \rbrace$, $\mathbb{Z}^-=\lbrace ...,-3,-2,-1\rbrace$\\
+Sea A un conjunto numérico. Denotaremos por $A^*$ al conjunto de elementos de $A$ salvo el cero, mientras que $A^+$ y $A^-$ designan a los elementos positivos y negativos de $A$ respectivamente. Por ejemplo, $\mathbb{N}^*=\lbrace 1,2,3,... \rbrace = \mathbb{Z}^+$, $\mathbb{Z}^-=\lbrace ...,-3,-2,-1\rbrace$\\
 
 Al número de elementos de A lo denominamos cardinal de A y se denota por $card(A)$
 
 
 \subsection*{Operaciones entre conjuntos}
-Definamos $A$ y $B$ como dos subconjuntos que pertenecen a un tercero $E$. Las operaciones básicas que se pueden realizar entre ellos son las siguientes:
+Sean $A$ y $B$ como dos conjuntos contenidos en un tercero $E$. Las operaciones básicas que se pueden realizar entre ellos son las siguientes:
 
 \begin{itemize}
-\item Inclusión: $A\subset B$
+    \item Inclusión: $A\subset B \equiv \lbrace x: \ x \in A \Rightarrow x \in B \rbrace$
 \begin{figure}[h]
 \centering
 \input{imagenes/tema1/conjuntos/contenido.tex}
@@ -82,7 +82,7 @@ Definamos $A$ y $B$ como dos subconjuntos que pertenecen a un tercero $E$. Las o
 \end{figure}
 \newpage
 
-\item Contrario o complementario: $A^c = \overline{A}$
+\item Contrario o complementario: $A^c = \overline{A} \equiv \lbrace x:\ x \not \in A \rbrace$
 
 \begin{figure}[h]
 \centering
@@ -90,7 +90,7 @@ Definamos $A$ y $B$ como dos subconjuntos que pertenecen a un tercero $E$. Las o
 \end{figure}
 
 
-\item Diferencia: $A-B=A\cap B^c=A-(A\cap B)$
+\item Diferencia: $A-B= A\backslash B=A\cap B^c=A-(A\cap B)\equiv \lbrace x \in A:\ x \not \in B \rbrace$
 
 \begin{figure}[h]
 \centering
@@ -140,7 +140,7 @@ Sea $E=\lbrace 1,2,3,4,5,6,7,8,9,10\rbrace$ podemos particionarlo, por ejemplo, 
 \item  $E= A \cup B \cup C$
 \end{itemize}
 
-Aprovechamos este ejemplo para recordar qué cardinal tiene cada conjunto: $card(E)=10$,  $card(A)=2$, $card(B)=3$ y $card(C)=5$.
+También podemos comprobar que el cardinal de un conjunto es la suma del cardinal de sus particiones:  $card(E)=card(A)+card(B)+card(C)=2+3+5=10$.
 
 \subsection*{Producto cartesiano}
 Sean dos conjuntos $A$ y $B$. Se define el producto cartesiano $A\times B$ al conjunto de todos los pares ordenados $(a,b)$ en los que el primer componente pertenece a $A$ y el segundo a $B$, es decir:
